@@ -1,0 +1,172 @@
+PODS:
+  - ActiveLabel (1.0.1)
+  - Alamofire (4.7.3)
+  - Alamofire-SwiftyJSON (3.0.0):
+    - Alamofire (~> 4.5)
+    - SwiftyJSON (~> 4.0.0)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - Charts (3.0.5):
+    - Charts/Core (= 3.0.5)
+  - Charts/Core (3.0.5)
+  - DropDown (2.3.1)
+  - FacebookCore (0.5.0):
+    - Bolts (~> 1.9)
+    - FBSDKCoreKit (~> 4.37)
+  - FacebookLogin (0.5.0):
+    - Bolts (~> 1.9)
+    - FacebookCore (~> 0.5)
+    - FBSDKCoreKit (~> 4.37)
+    - FBSDKLoginKit (~> 4.37)
+  - FacebookShare (0.5.0):
+    - Bolts (~> 1.9)
+    - FacebookCore (~> 0.5)
+    - FBSDKCoreKit (~> 4.37)
+    - FBSDKShareKit (~> 4.37)
+  - FBSDKCoreKit (4.38.1):
+    - Bolts (~> 1.9)
+  - FBSDKLoginKit (4.38.1):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.38.1):
+    - FBSDKCoreKit
+  - FirebaseAnalytics (3.9.0):
+    - FirebaseCore (~> 3.6)
+    - FirebaseInstanceID (~> 1.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseCore (3.6.0):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseInstanceID (1.0.10):
+    - FirebaseCore (~> 3.6)
+  - Google/Core (3.1.0):
+    - FirebaseAnalytics (~> 3.2)
+  - Google/SignIn (3.1.0):
+    - Google/Core
+    - GoogleSignIn (~> 4.0)
+  - GoogleSignIn (4.3.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.1.4)":
+    - GoogleToolboxForMac/DebugUtils (= 2.1.4)
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.1.4)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.1.4)"
+  - GTMOAuth2 (1.1.6):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.2.0):
+    - GTMSessionFetcher/Full (= 1.2.0)
+  - GTMSessionFetcher/Core (1.2.0)
+  - GTMSessionFetcher/Full (1.2.0):
+    - GTMSessionFetcher/Core (= 1.2.0)
+  - IQKeyboardManagerSwift (5.0.7)
+  - Kingfisher (4.10.1)
+  - Mapbox-iOS-SDK (3.7.3)
+  - MapboxGeocoder.swift (0.10.0)
+  - NVActivityIndicatorView (4.1.1):
+    - NVActivityIndicatorView/Presenter (= 4.1.1)
+  - NVActivityIndicatorView/Presenter (4.1.1)
+  - SCLAlertView (0.8)
+  - SwiftyJSON (4.0.0)
+  - SwiftyUserDefaults (3.0.0)
+  - Toast-Swift (3.0.1)
+  - VerticalSteppedSlider (0.1.0)
+
+DEPENDENCIES:
+  - ActiveLabel
+  - Alamofire
+  - Alamofire-SwiftyJSON
+  - Charts
+  - DropDown
+  - FacebookCore
+  - FacebookLogin
+  - FacebookShare
+  - Google/SignIn
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - Mapbox-iOS-SDK
+  - MapboxGeocoder.swift (~> 0.10)
+  - NVActivityIndicatorView
+  - SCLAlertView
+  - SwiftyJSON
+  - SwiftyUserDefaults
+  - Toast-Swift
+  - VerticalSteppedSlider
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ActiveLabel
+    - Alamofire
+    - Alamofire-SwiftyJSON
+    - Bolts
+    - Charts
+    - DropDown
+    - FacebookCore
+    - FacebookLogin
+    - FacebookShare
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - Google
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GTMOAuth2
+    - GTMSessionFetcher
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - Mapbox-iOS-SDK
+    - MapboxGeocoder.swift
+    - NVActivityIndicatorView
+    - SCLAlertView
+    - SwiftyJSON
+    - SwiftyUserDefaults
+    - Toast-Swift
+    - VerticalSteppedSlider
+
+SPEC CHECKSUMS:
+  ActiveLabel: b8b2396fe25308d563601437d6605bf691c3b5db
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Alamofire-SwiftyJSON: 2b3649d57dc7bb2880fb8b86f8bb969397666916
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Charts: 45cdc985b764c838b35ee47eb1365d15735f6d1a
+  DropDown: 20499c7b2731b0d21609af924e47c7677a2be50d
+  FacebookCore: 74288d0add931d361b1596beae787ab72c438249
+  FacebookLogin: ebcf34714a1cb9f0759d9f071cfb01ed500996cf
+  FacebookShare: 963b4bb1124a64a395b1e428163d70b5774116e8
+  FBSDKCoreKit: 8d47857400e2f5bdea697a80daff882e91c84ef6
+  FBSDKLoginKit: 4621c690d9dd8628031a4791497062183ea34b0d
+  FBSDKShareKit: 6ffe22f0a0618eb7424d4104ab0ef3ce9643d42a
+  FirebaseAnalytics: e5fe8486efc01bec33f6bf82e2fa9fce4b124052
+  FirebaseCore: 9691ee2ade70c098d7cf92440f4303f16d83ca75
+  FirebaseInstanceID: b9eedd6846fb5e1f0f7279e1deaa7a7e4cf8392e
+  Google: 98da4b1a60ed0beb80a290387a28333406a1eb90
+  GoogleSignIn: 11183592dc63e105475c7305a325045ff95e02b7
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  GTMOAuth2: c77fe325e4acd453837e72d91e3b5f13116857b2
+  GTMSessionFetcher: 0c4baf0a73acd0041bf9f71ea018deedab5ea84e
+  IQKeyboardManagerSwift: 30fb3a61de1af53a95e02b80fb54ed0a19d5ede5
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  Mapbox-iOS-SDK: 5304bd9605babe6da9050ea4cb23c1671420b737
+  MapboxGeocoder.swift: fc21bff95696aa618c396bd472ef0924ba9ccd2e
+  NVActivityIndicatorView: 60109b9bf46efc2e71ab81453196ccdfdfeea870
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  SwiftyUserDefaults: 0f1d45fc3aafb9064dac661e367f8f83fe21a4b4
+  Toast-Swift: ba0b01b095aada709d915f9beb1d38184a2721c3
+  VerticalSteppedSlider: c1513f095cda3d27e327de7fab6d3f8425a8dc46
+
+PODFILE CHECKSUM: c8295fd880e2111f49fd73988ca4c34373d99403
+
+COCOAPODS: 1.5.3
